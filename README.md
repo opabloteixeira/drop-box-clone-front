@@ -1,3 +1,21 @@
+
+---
+## Dependências
+`AXIOS` <br>
+Para Conectar e consumir uma api, otima opção em relação a api fetch pois conseguimos criar base_url
+```
+yarn add axios
+```
+
+`REACT ROUTER DOM` <br>
+Lib pra lidar com navegação/rotas dentro do react
+```
+yarn add react-router-dom
+```
+
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
