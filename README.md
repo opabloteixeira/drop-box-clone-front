@@ -13,6 +13,11 @@ Lib pra lidar com navegação/rotas dentro do react
 yarn add react-router-dom
 ```
 
+`REACT ICONS` <br>
+Lib de icons em vetores
+```
+yarn add react-icons
+```
 
 ---
 

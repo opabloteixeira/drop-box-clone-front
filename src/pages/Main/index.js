@@ -17,8 +17,11 @@ export default class Main extends Component {
             title: this.state.newBox,
         });
 
+
+        this.props.history.push(`/box/${response.data._id}`);
         console.log(response.data);
     }
+
 
     handleInputChange = (e) => {
         this.setState({ newBox: e.target.value});
