@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import api from "../../services/api";
 import { MdInsertDriveFile } from 'react-icons/md';
 import logo from '../../assets/logo.png';
 import "./styles.css";
 
 
 export default class Box extends Component {
+    async componentDidMount(){
+        const box = this.props.match.params.id;
+        const response = await api.get(` boxes/${box} `)
+    }
     render() {
         return (
             <div className="box-container">
